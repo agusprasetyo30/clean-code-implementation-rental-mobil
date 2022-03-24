@@ -1,6 +1,6 @@
 package Tugas;
 
-public class Customer extends User{
+public class Customer extends User {
     private String address;
     private String phone;
 

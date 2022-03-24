@@ -41,27 +41,27 @@ public class Car {
         return seat;
     }
 
-    public void setLicense_number(String license_number) {
+    public void setLicenseNumber(String license_number) {
         this.license_number = license_number;
     }
 
-    public String getLicense_number() {
+    public String getLicenseNumber() {
         return license_number;
     }
 
-    public void setPrice_hour(int price_hour) {
+    public void setPriceHour(int price_hour) {
         this.price_hour = price_hour;
     }
 
-    public int getPrice_hour() {
+    public int getPriceHour() {
         return price_hour;
     }
 
-    public void setPrice_day(int price_day) {
+    public void setPriceDay(int price_day) {
         this.price_day = price_day;
     }
 
-    public int getPrice_day() {
+    public int getPriceDay() {
         return price_day;
     }
 }

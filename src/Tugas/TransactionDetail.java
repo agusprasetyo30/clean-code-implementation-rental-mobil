@@ -3,9 +3,9 @@ package Tugas;
 public class TransactionDetail {
     private int start_date;
     private int end_date;
-    private Transaction transaction;
+//    private Transaction transaction;
 
     public void getTransactionDetail(Transaction transaction) {
-        this.transaction = new Transaction();
+        transaction.downloadReceipt();
     }
 }
